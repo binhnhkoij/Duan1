@@ -1,0 +1,156 @@
+.account-page {
+    min-height: 100vh;
+    padding: 45px 15px;
+    background: linear-gradient(135deg, #eef2f7, #ffffff);
+}
+
+.account-box {
+    max-width: 1280px;
+    margin: auto;
+    padding: 38px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, .06);
+}
+
+.account-title {
+    margin-bottom: 28px;
+    color: #2a3b57;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.account-table th,
+.account-table td {
+    padding: 14px 12px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.account-table thead {
+    background: #f4f6f8;
+}
+
+.account-table th {
+    color: #26364d;
+    font-weight: 700;
+}
+
+.account-table tbody tr:hover {
+    background: #fafcff;
+}
+
+.btn-account {
+    border: 0;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-edit {
+    color: #333;
+    background: #f9c74f;
+}
+
+.btn-edit:hover {
+    color: #222;
+    background: #f5b82e;
+}
+
+.btn-reset {
+    color: #fff;
+    background: #72c3dc;
+}
+
+.btn-reset:hover {
+    color: #fff;
+    background: #5ab5d2;
+}
+
+.btn-delete {
+    color: #fff;
+    background: #e66b6b;
+}
+
+.btn-delete:hover {
+    color: #fff;
+    background: #d45959;
+}
+
+.account-alert {
+    margin-bottom: 20px;
+    padding: 14px 18px;
+    border-radius: 10px;
+}
+
+.account-alert.success {
+    color: #0f5132;
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+}
+
+.account-alert.error {
+    color: #842029;
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+}
+
+.pagination .page-link {
+    margin: 0 3px;
+    color: #333;
+    border-radius: 8px;
+}
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background: #72c3dc;
+    border-color: #72c3dc;
+}
+
+.modal-content {
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, .12);
+}
+
+.modal-header {
+    background: #f4f6f8;
+    border-bottom: 0;
+}
+
+.modal-title {
+    color: #2a3b57;
+    font-weight: 700;
+}
+
+.form-control,
+.form-select {
+    border-radius: 9px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #72c3dc;
+    box-shadow: 0 0 0 .2rem rgba(114, 195, 220, .22);
+}
+
+.role-admin {
+    color: #dc3545;
+    font-weight: 700;
+}
+
+.role-user {
+    color: #198754;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .account-box {
+        padding: 25px 14px;
+    }
+
+    .account-title {
+        font-size: 24px;
+    }
+}
